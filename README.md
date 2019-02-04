@@ -1,5 +1,15 @@
 # somethingvuetiful
 
+## Run with Docker
+Build the Docker image of Vue app
+
+```docker build -t vuejs-cookbook/dockerize-vuejs-app .```
+
+Run Vue app in a Docker container
+
+```docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 vuejs-cookbook/dockerize-vuejs-app```
+
+Access app on `localhost:8080`
 ## Project setup
 ```
 yarn install
